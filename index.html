@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Notes Tool</h1>
+
+        <div class="form">
+            <input type="text" id="noteInput" placeholder="Enter a note">
+            <button onclick="addNote()">Add Note</button>
+        </div>
+
+        <div class="buttons">
+            <button onclick="loadNotes()">List Notes</button>
+            <button onclick="clearNotes()">Clear Notes</button>
+        </div>
+
+        <div id="message"></div>
+        <ol id="notesList"></ol>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
